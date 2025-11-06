@@ -13,6 +13,7 @@ pipeline {
     }
     stage('Deploy') {
       steps {
+        echo 'build name is $BUILD_NAME'
         echo 'Деплой и домой'
       }
     }
